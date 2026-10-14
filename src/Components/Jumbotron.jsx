@@ -1,13 +1,13 @@
-import { useState } from "react"
-import Search from "./Search";
+// import { useState } from "react"
+// import Search from "./Search";
 
 export default function Jumbotron() {
     // const [name, setName] = useState("memuat...");
     // const [sec, setSec] = useState(0);
-    const [users, setUsers] = useState([]);
-    const url = "https://jsonplaceholder.typicode.com/users";
+    // const [users, setUsers] = useState([]);
+    // const url = "https://jsonplaceholder.typicode.com/users";
 
-    fetch(url).then((res) => res.json()).then((data) => setUsers(data));
+    // fetch(url).then((res) => res.json()).then((data) => setUsers(data));
 
     // useEffect(() => {
     //     console.log("new component");
@@ -34,17 +34,17 @@ export default function Jumbotron() {
                 WE are .NET DEVELOPER Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, vel.
             </nav>
         </header>
-        <main>
+        {/* <main>
             <section>
                 <ul className="space-y-2 p-2 mx-4">{users.map((item) => (
                     <li key={item.id} className="text-blue-600 font-medium"> {item.name} </li>
                 ))}</ul>
-                {/* <p className="py-2 px-4 text-green-500 m-2">you've opened this site for about {sec} seconds.</p> */}
+                <p className="py-2 px-4 text-green-500 m-2">you've opened this site for about {sec} seconds.</p>
             </section>
             <section>
                 <Search />
             </section>
-        </main>
+        </main> */}
     </>
     )
 }
